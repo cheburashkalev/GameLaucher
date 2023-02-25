@@ -1,0 +1,1754 @@
+{
+	"ID": "a1bcd9244b109c0958e3f38ac7f4d44a",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6338,
+	"Data": [
+		{
+			"ID": "a1bcd9244b109c0958e3f38ac7f4d44a",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": false,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 0
+			}
+		},
+		{
+			"ID": "6a8120744e91f663493b75bbcc3208e7",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "a1bcd9244b109c0958e3f38ac7f4d44a",
+			"Name": "Camera",
+			"StaticFlags": 0,
+			"Layer": 3,
+			"Tag": "UI",
+			"UsePerspective": false,
+			"FOV": 179.0,
+			"CustomAspectRatio": 3.6000003814697267,
+			"Near": 0.0010000000474974514,
+			"Far": 100.0,
+			"RenderLayersMask": 4294967288
+		},
+		{
+			"ID": "f7f088454662c569bf2f03b90ff72fda",
+			"TypeName": "FlaxEngine.UICanvas",
+			"ParentID": "6a8120744e91f663493b75bbcc3208e7",
+			"Name": "UICanvas",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 20.2369384765625
+				},
+				"Orientation": {
+					"X": 1.0,
+					"Y": 4.371138828673793e-8,
+					"Z": 4.371138828673793e-8,
+					"W": 1.910685465164705e-15
+				}
+			},
+			"StaticFlags": 0,
+			"Layer": 3,
+			"V": {
+	"RenderMode": 3,
+	"Order": -97,
+	"RenderCamera": "6a8120744e91f663493b75bbcc3208e7",
+	"Size": {
+		"X": 1280.0,
+		"Y": 720.0
+	},
+	"NavigationInputRepeatDelay": 0.0
+}
+		},
+		{
+			"ID": "8b0997aa42f93da7a14a3ca2800304d1",
+			"TypeName": "Game.UI_CanvasSC",
+			"ParentID": "f7f088454662c569bf2f03b90ff72fda",
+			"V": {
+	"UiCanvas": "f7f088454662c569bf2f03b90ff72fda"
+}
+		},
+		{
+			"ID": "809fbd3842301a87a6c5aebf951cb448",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "f7f088454662c569bf2f03b90ff72fda",
+			"Name": "Border",
+			"StaticFlags": 0,
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Border",
+			"Data": {
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 1.0
+	},
+	"BorderWidth": 0.0,
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.211111128,
+		"G": 0.211111128,
+		"B": 0.211111128,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "af1bdb00407f2c10ffe97aac1c095ad5",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "809fbd3842301a87a6c5aebf951cb448",
+			"Name": "Border 1",
+			"StaticFlags": 0,
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Border",
+			"Data": {
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BorderWidth": 0.0,
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 45.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.491188765,
+		"G": 0.504821062,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "d3cff7a1478e62a2cc07f5a9a2c14606",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "af1bdb00407f2c10ffe97aac1c095ad5",
+			"Name": "VerticalPanel",
+			"Transform": {
+				"Translation": {
+					"X": 7.5,
+					"Y": 35.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Control": "FlaxEngine.GUI.VerticalPanel",
+			"Data": {
+	"Spacing": 10.0,
+	"Offset": {
+		"X": 0.0,
+		"Y": 10.0
+	},
+	"AutoSize": true,
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.5,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.5,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": -15.0,
+		"Right": 30.0,
+		"Top": 35.0,
+		"Bottom": 215.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "3ed7500d429f933b0b6f3a8c41520c04",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "d3cff7a1478e62a2cc07f5a9a2c14606",
+			"Name": "Button",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 440.0,
+					"Z": 4.585645231591773e-12
+				}
+			},
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": {
+		"Id": "1212",
+		"Value": "fdghfgdhj"
+	},
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 9
+	},
+	"TextMaterial": "e72782bd4d898e2f236ca3be780438af",
+	"BackgroundBrush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "4e5be1684a919860170f57a6d2baabcf",
+		"Filter": 1
+	},
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.07222223,
+		"G": 0.07222223,
+		"B": 0.07222223,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.109803922,
+		"G": 0.5921569,
+		"B": 0.917647064,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.6594203,
+		"G": 0.6594203,
+		"B": 0.7222222,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 30.0,
+		"Top": -30.0,
+		"Bottom": 30.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.5333333,
+		"G": 0.5333333,
+		"B": 0.5333333,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "06c8251049b9cd49002a5b8f5dd1e968",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "d3cff7a1478e62a2cc07f5a9a2c14606",
+			"Name": "Button 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 400.0,
+					"Z": 0.0
+				}
+			},
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": {
+		"Id": "1212",
+		"Value": "fdghfgdhj"
+	},
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 9
+	},
+	"TextMaterial": "e72782bd4d898e2f236ca3be780438af",
+	"BackgroundBrush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "4e5be1684a919860170f57a6d2baabcf",
+		"Filter": 1
+	},
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.07222223,
+		"G": 0.07222223,
+		"B": 0.07222223,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.109803922,
+		"G": 0.5921569,
+		"B": 0.917647064,
+		"A": 0.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.6594203,
+		"G": 0.6594203,
+		"B": 0.7222222,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 30.0,
+		"Top": -70.0,
+		"Bottom": 30.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.5333333,
+		"G": 0.5333333,
+		"B": 0.5333333,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "0acf51164ca3f68129d0d19e55dff421",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "d3cff7a1478e62a2cc07f5a9a2c14606",
+			"Name": "Button 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 360.0,
+					"Z": 0.0
+				}
+			},
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": {
+		"Id": "1212",
+		"Value": "fdghfgdhj"
+	},
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 9
+	},
+	"TextMaterial": "e72782bd4d898e2f236ca3be780438af",
+	"BackgroundBrush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "4e5be1684a919860170f57a6d2baabcf",
+		"Filter": 1
+	},
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.07222223,
+		"G": 0.07222223,
+		"B": 0.07222223,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.109803922,
+		"G": 0.5921569,
+		"B": 0.917647064,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.6594203,
+		"G": 0.6594203,
+		"B": 0.7222222,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 30.0,
+		"Top": -110.0,
+		"Bottom": 30.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.5333333,
+		"G": 0.5333333,
+		"B": 0.5333333,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "41c45d154e140ce9294c87be7531a60e",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "d3cff7a1478e62a2cc07f5a9a2c14606",
+			"Name": "Button 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 320.0,
+					"Z": 0.0
+				}
+			},
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": {
+		"Id": "1212",
+		"Value": "fdghfgdhj"
+	},
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 9
+	},
+	"TextMaterial": "e72782bd4d898e2f236ca3be780438af",
+	"BackgroundBrush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "4e5be1684a919860170f57a6d2baabcf",
+		"Filter": 1
+	},
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.07222223,
+		"G": 0.07222223,
+		"B": 0.07222223,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.109803922,
+		"G": 0.5921569,
+		"B": 0.917647064,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.6594203,
+		"G": 0.6594203,
+		"B": 0.7222222,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 30.0,
+		"Top": -150.0,
+		"Bottom": 30.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.5333333,
+		"G": 0.5333333,
+		"B": 0.5333333,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "73d7772443466221a467f4b65175e64f",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "d3cff7a1478e62a2cc07f5a9a2c14606",
+			"Name": "Button 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 280.0,
+					"Z": 0.0
+				}
+			},
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": {
+		"Id": "1212",
+		"Value": "fdghfgdhj"
+	},
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 9
+	},
+	"TextMaterial": "e72782bd4d898e2f236ca3be780438af",
+	"BackgroundBrush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "4e5be1684a919860170f57a6d2baabcf",
+		"Filter": 1
+	},
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.07222223,
+		"G": 0.07222223,
+		"B": 0.07222223,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.109803922,
+		"G": 0.5921569,
+		"B": 0.917647064,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.6594203,
+		"G": 0.6594203,
+		"B": 0.7222222,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 30.0,
+		"Top": -190.0,
+		"Bottom": 30.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.5333333,
+		"G": 0.5333333,
+		"B": 0.5333333,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "d9f3dac64097ba833bb54e9e851fbc6c",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "d3cff7a1478e62a2cc07f5a9a2c14606",
+			"Name": "Button 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 240.0,
+					"Z": 0.0
+				}
+			},
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": {
+		"Id": "1212",
+		"Value": "fdghfgdhj"
+	},
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 9
+	},
+	"TextMaterial": "e72782bd4d898e2f236ca3be780438af",
+	"BackgroundBrush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "4e5be1684a919860170f57a6d2baabcf",
+		"Filter": 1
+	},
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.07222223,
+		"G": 0.07222223,
+		"B": 0.07222223,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.109803922,
+		"G": 0.5921569,
+		"B": 0.917647064,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.6594203,
+		"G": 0.6594203,
+		"B": 0.7222222,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 30.0,
+		"Top": -230.0,
+		"Bottom": 30.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.5333333,
+		"G": 0.5333333,
+		"B": 0.5333333,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "1821322a49442d3b784d0f8819f3c22a",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "d3cff7a1478e62a2cc07f5a9a2c14606",
+			"Name": "Button 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 200.0,
+					"Z": 0.0
+				}
+			},
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": {
+		"Id": "1212",
+		"Value": "fdghfgdhj"
+	},
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 9
+	},
+	"TextMaterial": "e72782bd4d898e2f236ca3be780438af",
+	"BackgroundBrush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "4e5be1684a919860170f57a6d2baabcf",
+		"Filter": 1
+	},
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.07222223,
+		"G": 0.07222223,
+		"B": 0.07222223,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.109803922,
+		"G": 0.5921569,
+		"B": 0.917647064,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.6594203,
+		"G": 0.6594203,
+		"B": 0.7222222,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 30.0,
+		"Top": -270.0,
+		"Bottom": 30.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.5333333,
+		"G": 0.5333333,
+		"B": 0.5333333,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "470ca990433c136d48ba4abd7ce69219",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "d3cff7a1478e62a2cc07f5a9a2c14606",
+			"Name": "Button 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 160.0,
+					"Z": 0.0
+				}
+			},
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": {
+		"Id": "1212",
+		"Value": "fdghfgdhj"
+	},
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 9
+	},
+	"TextMaterial": "e72782bd4d898e2f236ca3be780438af",
+	"BackgroundBrush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "4e5be1684a919860170f57a6d2baabcf",
+		"Filter": 1
+	},
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.07222223,
+		"G": 0.07222223,
+		"B": 0.07222223,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.109803922,
+		"G": 0.5921569,
+		"B": 0.917647064,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.6594203,
+		"G": 0.6594203,
+		"B": 0.7222222,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 30.0,
+		"Top": -310.0,
+		"Bottom": 30.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.5333333,
+		"G": 0.5333333,
+		"B": 0.5333333,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "bac0d6474d79439b034baaa72672cea7",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "d3cff7a1478e62a2cc07f5a9a2c14606",
+			"Name": "Button 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 120.0,
+					"Z": 0.0
+				}
+			},
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": {
+		"Id": "1212",
+		"Value": "fdghfgdhj"
+	},
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 9
+	},
+	"TextMaterial": "e72782bd4d898e2f236ca3be780438af",
+	"BackgroundBrush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "4e5be1684a919860170f57a6d2baabcf",
+		"Filter": 1
+	},
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.07222223,
+		"G": 0.07222223,
+		"B": 0.07222223,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.109803922,
+		"G": 0.5921569,
+		"B": 0.917647064,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.6594203,
+		"G": 0.6594203,
+		"B": 0.7222222,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 30.0,
+		"Top": -350.0,
+		"Bottom": 30.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.5333333,
+		"G": 0.5333333,
+		"B": 0.5333333,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "0069700c4a83141f8e24e8b1680440e0",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "d3cff7a1478e62a2cc07f5a9a2c14606",
+			"Name": "Button 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 80.0,
+					"Z": 0.0
+				}
+			},
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": {
+		"Id": "1212",
+		"Value": "fdghfgdhj"
+	},
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 9
+	},
+	"TextMaterial": "e72782bd4d898e2f236ca3be780438af",
+	"BackgroundBrush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "4e5be1684a919860170f57a6d2baabcf",
+		"Filter": 1
+	},
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.07222223,
+		"G": 0.07222223,
+		"B": 0.07222223,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.109803922,
+		"G": 0.5921569,
+		"B": 0.917647064,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.6594203,
+		"G": 0.6594203,
+		"B": 0.7222222,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 30.0,
+		"Top": -390.0,
+		"Bottom": 30.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.5333333,
+		"G": 0.5333333,
+		"B": 0.5333333,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "b1e600e841ceca5ddfe0d6ac1268fc84",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "d3cff7a1478e62a2cc07f5a9a2c14606",
+			"Name": "Button 9",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 40.0,
+					"Z": 0.0
+				}
+			},
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": {
+		"Id": "1212",
+		"Value": "fdghfgdhj"
+	},
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 9
+	},
+	"TextMaterial": "e72782bd4d898e2f236ca3be780438af",
+	"BackgroundBrush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "4e5be1684a919860170f57a6d2baabcf",
+		"Filter": 1
+	},
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.07222223,
+		"G": 0.07222223,
+		"B": 0.07222223,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.109803922,
+		"G": 0.5921569,
+		"B": 0.917647064,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.6594203,
+		"G": 0.6594203,
+		"B": 0.7222222,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 30.0,
+		"Top": -430.0,
+		"Bottom": 30.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.5333333,
+		"G": 0.5333333,
+		"B": 0.5333333,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "c1852d3a468a5e9f25397baae5543df7",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "d3cff7a1478e62a2cc07f5a9a2c14606",
+			"Name": "Button 10",
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": {
+		"Id": "1212",
+		"Value": "fdghfgdhj"
+	},
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 9
+	},
+	"TextMaterial": "e72782bd4d898e2f236ca3be780438af",
+	"BackgroundBrush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "4e5be1684a919860170f57a6d2baabcf",
+		"Filter": 1
+	},
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.07222223,
+		"G": 0.07222223,
+		"B": 0.07222223,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.109803922,
+		"G": 0.5921569,
+		"B": 0.917647064,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.6594203,
+		"G": 0.6594203,
+		"B": 0.7222222,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 30.0,
+		"Top": -470.0,
+		"Bottom": 30.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.5333333,
+		"G": 0.5333333,
+		"B": 0.5333333,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "0ddb3dcd4b1b9c18f24bdfb98605014f",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "809fbd3842301a87a6c5aebf951cb448",
+			"Name": "Border 0",
+			"StaticFlags": 0,
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Border",
+			"Data": {
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BorderWidth": 0.0,
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 25.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.491188765,
+		"G": 0.504821062,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "4ac883f349a1c35f5373d3877b09bc10",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "809fbd3842301a87a6c5aebf951cb448",
+			"Name": "Button 11",
+			"Transform": {
+				"Translation": {
+					"X": 102.0,
+					"Y": 540.0,
+					"Z": 0.0
+				}
+			},
+			"Layer": 3,
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 1.0
+	},
+	"Text": {
+		"Id": "1212",
+		"Value": "fdghfgdhj"
+	},
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 57
+	},
+	"TextMaterial": "e72782bd4d898e2f236ca3be780438af",
+	"BackgroundBrush": {
+		"$type": "FlaxEngine.GUI.LinearGradientBrush, FlaxEngine.CSharp",
+		"StartColor": {
+			"R": 1.0,
+			"G": 1.0,
+			"B": 1.0,
+			"A": 1.0
+		},
+		"EndColor": {
+			"R": 0.0,
+			"G": 0.0,
+			"B": 0.0,
+			"A": 1.0
+		}
+	},
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 0.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.07222223,
+		"G": 0.07222223,
+		"B": 0.07222223,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.109803922,
+		"G": 0.5921569,
+		"B": 0.917647064,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.6594203,
+		"G": 0.6594203,
+		"B": 0.7222222,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 102.0,
+		"Right": 148.0,
+		"Top": -180.0,
+		"Bottom": 63.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "99adc8b44e384c885498b5bcfdede7c6",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "a1bcd9244b109c0958e3f38ac7f4d44a",
+			"Name": "SkyLight",
+			"Transform": {
+				"Translation": {
+					"X": 637.49072265625,
+					"Y": 50.0,
+					"Z": -482.6954650878906
+				},
+				"Orientation": {
+					"X": -0.26041170954704287,
+					"Y": -0.2363521009683609,
+					"Z": -0.9337981343269348,
+					"W": 0.06591236591339112
+				}
+			}
+		},
+		{
+			"ID": "1894c0f941017763236f6f912b725828",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "a1bcd9244b109c0958e3f38ac7f4d44a",
+			"Name": "DirectionalLight",
+			"Transform": {
+				"Translation": {
+					"X": 1139.672119140625,
+					"Y": 50.000030517578128,
+					"Z": -400.3743591308594
+				}
+			}
+		},
+		{
+			"ID": "5cdfcf5b44afd0d31e9860a38b0ed4c5",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "a1bcd9244b109c0958e3f38ac7f4d44a",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": 1019.8775634765625,
+					"Y": 50.0,
+					"Z": -460.1934509277344
+				},
+				"Orientation": {
+					"X": 0.599023699760437,
+					"Y": -0.6997289061546326,
+					"Z": 0.3823593258857727,
+					"W": 0.07315347343683243
+				}
+			},
+			"SunDiscScale": 100.0,
+			"SunPower": 10.0
+		},
+		{
+			"ID": "56a8de664cb3ce945c0dfda00ce27a62",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "a1bcd9244b109c0958e3f38ac7f4d44a",
+			"Name": "EmptyActor",
+			"Transform": {
+				"Translation": {
+					"X": 363.6783142089844,
+					"Y": 50.0,
+					"Z": -749.51708984375
+				}
+			}
+		},
+		{
+			"ID": "742a517d42eebb5e1aa8f68eb2eba683",
+			"TypeName": "Game.TrayIconCS",
+			"ParentID": "56a8de664cb3ce945c0dfda00ce27a62",
+			"V": {
+	"ButtonsPlay": [
+		"4ac883f349a1c35f5373d3877b09bc10"
+	]
+}
+		}
+	]
+}

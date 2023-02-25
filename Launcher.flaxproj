@@ -1,0 +1,28 @@
+{
+	"Name": "Launcher",
+	"Version": "1.0",
+	"Company": "My Company",
+	"Copyright": "",
+	"GameTarget": "GameTarget",
+	"EditorTarget": "GameEditorTarget",
+	"References": [
+		{
+			"Name": "$(EnginePath)/Flax.flaxproj"
+		}
+	],
+	"DefaultScene": "a1bcd9244b109c0958e3f38ac7f4d44a",
+	"DefaultSceneSpawn": {
+		"Position": {
+			"X": 0.0,
+			"Y": 0.0,
+			"Z": 0.0
+		},
+		"Direction": {
+			"X": 0.0,
+			"Y": 0.0,
+			"Z": 1.0
+		}
+	},
+	"MinEngineVersion": "0.0.6194",
+	"EngineNickname": null
+}
