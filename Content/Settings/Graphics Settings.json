@@ -3,7 +3,7 @@
 	"TypeName": "FlaxEditor.Content.Settings.GraphicsSettings",
 	"EngineBuild": 6338,
 	"Data": {
-	"UseVSync": true,
+	"UseVSync": false,
 	"AAQuality": 0,
 	"SSRQuality": 0,
 	"SSAOQuality": 0,

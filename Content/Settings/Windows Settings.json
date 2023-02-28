@@ -3,7 +3,7 @@
 	"TypeName": "FlaxEditor.Content.Settings.WindowsPlatformSettings",
 	"EngineBuild": 6338,
 	"Data": {
-	"WindowMode": 0,
+	"WindowMode": 2,
 	"ScreenWidth": 1152,
 	"ScreenHeight": 648,
 	"ResizableWindow": true,
